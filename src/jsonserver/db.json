@@ -1,0 +1,28 @@
+{
+    "books": [
+        {
+            "category": "Book Category 1",
+            "books": [
+                { "name": "The Saying Of Confucius", "id": 1, "author": "Confucius","category": "Book Category 1","genre": "History","rate": 5 },
+                { "name": "The Idiot", "id": 2, "author": "Fyodor Dostoyevsky","category": "Book Category 1","genre":"Literature","rate": 5 }
+            ]
+        },
+        {
+            "category": "Book Category 2",
+            "books": [
+                { "name": "The Secret Agent", "id": 3, "author": "Joseph Conrad","category": "Book Category 2","genre":"Fiction","rate": 5 }, 
+                { "name": "Being Earnest", "id": 4, "author": "Edward Gibbon","category": "Book Category 2","genre":"Fiction","rate": 5 },
+                { "name": "The Art of War", "id": 5, "author": "Sun Tzu","category": "Book Category 2","genre":"History","rate": 5 }
+            ]
+        },
+        {
+            "category": "Book Category 3",
+            "books": [
+                { "name": "The Odyssey", "id": 6, "author": "Homer","category": "Book Category 3","genre":"Biography","rate": 5},
+                { "name": "Dracula", "id": 7, "author": "Bram Stoker","category": "Book Category 3","genre":"Fiction","rate": 5},
+                { "name": "The Critique", "id": 8, "author": "Immanuel Cant","category": "Book Category 3","genre":"Philosophy","rate": 5}
+            ]
+        }
+
+    ]
+}

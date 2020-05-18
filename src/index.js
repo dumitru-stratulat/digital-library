@@ -1,13 +1,22 @@
-import React from 'react';
+import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { Provider as ShelfProvider } from  './context/ShelfContext' 
+import { Provider as ReviewProvider } from './context/ReviewContext'
+import { ThemeProvider } from "./context/ThemeContext";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <ThemeProvider>
+    <ReviewProvider>
+      <ShelfProvider>
+        {/* Deleted strictmode bacause of ant design, bad move */}
+        <App />
+
+
+      </ShelfProvider>
+    </ReviewProvider>
+  </ThemeProvider>,
   document.getElementById('root')
 );
 

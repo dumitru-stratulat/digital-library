@@ -1,38 +1,118 @@
+
+body{
+  /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
+  /* background-image: linear-gradient(#fefefe,black); */
+
+  /* height: 100%; */
+  /* background-color: black!important; */
+}
 .App {
-  text-align: center;
+  /* background-image: linear-gradient(#fefefe,#e7e6e6); */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+  height: 6vh;
+  border-bottom: 1px solid #626264;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.nav-links-wrap{
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 10px;
 }
+.nav-links-wrap p{
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.nav-links-wrap :nth-child(2n){
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.header-nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-size: 28px;
+  font-weight: 800;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 5px;
+  
+}
+.nav-links ,li{
+  color: black;
+  margin-left: 10px;
+}
+.nav-links ,li:hover{
+  color: #626264;
+}
+.cart{
+  margin: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+.bookname{
+  width: 180px;
+  height: 240px;
+  border-radius: 5px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 10px 21px -2px rgba(0,0,0,0.39);
+}
+.book{
+  margin-left: 30px;
+}
+.bookname__text{
+    margin-right: 40px;
+    margin-left: 40px;
+    font-size: 26px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.bookauthor__text{ 
+  margin-top: -20px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+.bookgenre__text{
+  margin: 0px;
+}
+.bookbutton{
+  margin: 2px;
+}
+.category-input{
+  width: 25%;
+  border-radius: 20px;
+  height: 35px;
+  padding: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  border-right-color: '#161617';
+  padding-left: 10px;
+  outline: none;
+}
+.category-input-button{
+  border-radius: 20px;
+  height: 35px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  cursor: pointer;
+  outline: none;
+  color: #1690FF;
+}
+.category-input-button:hover{
+  color:#9ec4f3;
+}
+ .something{
+   margin-top: 240px;
+ }
+.notification-type{
+  color: white
+}
+.review{
+  margin-left: 30px;
 }
